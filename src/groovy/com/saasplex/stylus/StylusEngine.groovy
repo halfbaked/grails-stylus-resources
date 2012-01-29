@@ -43,12 +43,8 @@ class StylusEngine {
       def cx = Context.enter()
       def compileScope = cx.newObject(globalScope)
       compileScope.setParentScope(globalScope)
-//      def stylusSheet = """hi { font-size:20px; }"""
       def stylusSheet = content.trim()
-//throw new RuntimeException(content.trim())
-      //throw new RuntimeException ("Stylus Sheet: $stylusSheet")
       compileScope.put("stylusSheet", compileScope, stylusSheet)
-      //cx.evaluateString(compileScope,  stylusSheet, "Define stylus input", 0, null)
       def callingCode = """
         (function(){
         var result = stylus(stylusSheet).renderSync(stylusSheet);     
