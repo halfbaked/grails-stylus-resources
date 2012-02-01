@@ -18,7 +18,7 @@ class StylusResourceMapper {
     if (originalFile.name.endsWith('.styl')) {
       def stylusEngine = new com.saasplex.stylus.StylusEngine()
       def input = grailsApplication.parentContext.getResource(resource.sourceUrl).file.text
-      log.debut "Stylus Input: $input"
+      log.debug "Stylus Input: $input"
       def output = stylusEngine.compile(input)
       log.debug "Stylus Output: $output"
       File target = new File("${originalFile.absolutePath}.css")         

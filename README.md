@@ -5,7 +5,7 @@ It requires the well established resources plugin.
 
 [Stylus](https://github.com/LearnBoost/stylus) is yet another stylesheet language. There are quite a few these days! Stylus is written by the prolific [TJ Holowaychuk](https://github.com/visionmedia). 
 
-It uses Mozilla's [Rhino engine](https://github.com/mozilla/rhino) to execute a slightly modified version of the [browser compatible version](http://learnboost.github.com/stylus/try.html) of the Stylus compiler.
+This plugin uses Mozilla's [Rhino engine](https://github.com/mozilla/rhino) to execute a slightly modified version of the [browser compatible version](http://learnboost.github.com/stylus/try.html) of the Stylus compiler.
 
 ## Usage
 
