@@ -19,7 +19,7 @@ class StylusResourcesGrailsPlugin {
     def authorEmail = "twitter:@34m0"
     def description = '''\
 Compiles Stylus sheets to css. 
-Stylus is of the same ilk other css preprocessors such as Less, and Sasl. It does of course have its differences.
+Stylus is of the same ilk as other css preprocessors such as Less, and Sasl. It does of course have its differences.
 From the creator of the popular NodeJs web server ExpressJs.
 See: https://github.com/LearnBoost/stylus
 '''
