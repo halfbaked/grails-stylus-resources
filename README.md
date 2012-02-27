@@ -12,7 +12,7 @@ This plugin uses Mozilla's [Rhino engine](https://github.com/mozilla/rhino) to e
 To add Stylus files to your Grails project:
 
 * Install the plugin (adding to your BuildConfig is best)
-* Actually add the stylus files to your project. I placed mine adjacent to the css folder in styl.
+* Actually add the stylus files to your project. I placed mine adjacent to the css folder in web-app/styl.
 * Reference your stylus files in your ApplicationResources file (or where ever your defining your resources)
 
 Example
